@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5, h6{
                 #small-logo{
                     width: 75%;
                     height: auto;
+                    display: none;
                 }
             #empty-box{
                 width: 100%;
@@ -81,7 +82,7 @@ h1, h2, h3, h4, h5, h6{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background-color: rgba(255, 255, 255, 0.705);
+                background-color: rgba(255, 255, 255, 0.199);
             }
             #main-container-bio{
                 width: 30%;
@@ -456,6 +457,89 @@ h1, h2, h3, h4, h5, h6{
                 }
 
 
+/* GALLERY SECTION */
+#gallery-section{
+    width: 100%;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+    background-color: antiquewhite;
+}
+    .gallery-halves{
+        width: 95%;
+        height: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2%;
+
+    }
+        .gallery-cards{
+            width: 18%;
+            height: 100%;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: 1.1s;
+        }
+        .gallery-cards:hover{
+            transform: scale(1.1);
+        }
+            #gallery-card-one{
+                background-image: url(gallery-img-one.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-two{
+                background-image: url(gallery-img-two.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-three{
+                background-image: url(gallery-img-three.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-four{
+                background-image: url(gallery-img-four.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-five{
+                background-image: url(gallery-img-five.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-six{
+                background-image: url(gallery-img-six.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-seven{
+                background-image: url(gallery-img-seven.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-eight{
+                background-image: url(gallery-img-eight.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-nine{
+                background-image: url(gallery-img-nine.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-ten{
+                background-image: url(gallery-img-ten.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+
+
+
 
 /* BOTTOM SECTION */
 #bottom-section{
@@ -669,5 +753,20 @@ h1, h2, h3, h4, h5, h6{
 #map-box{
     height: 100%;
     width: 100%;
+}
+
+
+/* gallery section */
+#gallery-section{
+    flex-direction: row;
+}
+.gallery-halves{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.gallery-cards{
+    width: 100%;
+    height: 30%;
 }
 }
