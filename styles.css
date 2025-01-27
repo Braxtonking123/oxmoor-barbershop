@@ -665,6 +665,7 @@ h1, h2, h3, h4, h5, h6{
         .main-info-boxes{
             width: 100%;
             height: 33.3%;
+            
         }
     h1, h2, h3{
         font-size: 18px;
@@ -680,7 +681,7 @@ h1, h2, h3, h4, h5, h6{
         font-size: 10px;
     }
     #schedule-box{
-        flex-direction: row;
+        flex-direction: column;
     }
     #schedule-header{
         display: none;
