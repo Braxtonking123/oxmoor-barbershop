@@ -21,15 +21,15 @@ h1, h2, h3, h4, h5, h6{
 }
 #top-button{
 
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        padding: 10px 15px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 
 }
 /* MAIN CONTAINER */
@@ -181,7 +181,72 @@ h1, h2, h3, h4, h5, h6{
                 font-size: 12px;
             }
 
-
+/* PRICING SECTION */
+#pricing-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+    #pricing-container{
+        width: 75%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+        #pricing-top{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #pricing-header{
+                color: black;
+                font-size: 35px;
+            }
+        #pricing-bottom{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+            #pricing-left-container, #pricing-right-container{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+                .pricing-titles{
+                    width: 100%;
+                    height: 11%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .service-offered{
+                        color: black;
+                        font-size: 20px;
+                    }
+                .pricing-amounts{
+                    width: 100%;
+                    height: 11%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .service-prices{
+                        color: black;
+                        font-size: 20px;
+                    }
 /* ABOUT SECTION */
 #about-section{
     width: 100%;
@@ -665,10 +730,9 @@ h1, h2, h3, h4, h5, h6{
         .main-info-boxes{
             width: 100%;
             height: 33.3%;
-            
         }
     h1, h2, h3{
-        font-size: 18px;
+        font-size: 15px;
         line-height: 1;
     }
     .orange-headers{
@@ -681,13 +745,19 @@ h1, h2, h3, h4, h5, h6{
         font-size: 10px;
     }
     #schedule-box{
-        flex-direction: column;
+        flex-direction: row;
     }
     #schedule-header{
         display: none;
     }
 
-
+/* PRICING SECTION */
+.service-offered{
+    font-size: 15px;
+}
+.service-prices{
+    font-size: 15px;
+}
 
 /* ABOUT SECTION */
 #about-section{
@@ -739,7 +809,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .staff-cards{
     width: 100%;
-    height: 100%;
+    height: 75%;
 }
 .booking-btn{
     height: 100%;
