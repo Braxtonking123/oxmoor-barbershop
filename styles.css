@@ -1,0 +1,858 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
+
+html,body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lora', serif;
+    line-height: 1.1;
+}
+h1, h2, h3, h4, h5, h6{
+    color: white;
+    font-family: 'Lora', serif;
+    line-height: 1.1;
+}
+#top-button{
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+/* MAIN CONTAINER */
+#main-container{
+    width: 100%;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+
+    background-image: url(section-one-photo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+    #main-container-top{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+
+    }
+        #left-logo-container{
+            width: 20%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+            #small-logo-box{
+                width: 100%;
+                height: 25%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                #small-logo{
+                    width: 75%;
+                    height: auto;
+                    display: none;
+                }
+            #empty-box{
+                width: 100%;
+                height: 75%;
+            }
+        #main-logo-container{
+            width: 60%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+            #big-logo-box{
+                width: 50%;
+                height: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            #main-container-bio{
+                width: 30%;
+                height: 30%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            #main-appointment-box{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                #appointment-button{
+                    width: 200px;
+                    height: 55px;
+                    text-align: center;
+                    border: 1px solid black;
+                    background-color:rgb(172, 119, 22);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    transition: 1.1s;
+                    font-size: 18px;
+                }
+
+        #button-container{
+            width: 20%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5%;
+
+        }
+            .nav-buttons{
+                width: 200px;
+                height: 55px;
+                text-align: center;
+                border: 1px solid black;
+                background-color:rgb(172, 119, 22);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: 1.1s;
+                border-radius: 5px;
+            }
+                .nav-buttons:hover{
+                    transform: scale(1.1);
+                }
+    #main-container-bottom{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 0.50);
+    }
+        .main-info-boxes{
+            width: 33.3%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: 1px solid black;
+        }
+            .orange-headers{
+                font-size: 25px;
+                color: rgb(172, 119, 22);
+            }
+            #address, #phone-number, #week-hours, #weekend-hours{
+                font-size: 15px;
+            }
+            #hours-one, #hours-two{
+                font-size: 12px;
+            }
+
+/* PRICING SECTION */
+#pricing-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+    #pricing-container{
+        width: 75%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+        #pricing-top{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #pricing-header{
+                color: black;
+                font-size: 35px;
+            }
+        #pricing-bottom{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+            #pricing-left-container, #pricing-right-container{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+                .pricing-titles{
+                    width: 100%;
+                    height: 11%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .service-offered{
+                        color: black;
+                        font-size: 20px;
+                    }
+                .pricing-amounts{
+                    width: 100%;
+                    height: 11%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .service-prices{
+                        color: black;
+                        font-size: 20px;
+                    }
+/* ABOUT SECTION */
+#about-section{
+    width: 100%;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+    #about-section-left{
+        width: 50%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.50);
+        background-image: url(section-four-img.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #about-section-right{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+        #about-us-header-box{
+            width: 100%;
+            height: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+            #header-box-top{
+                width: 50%;
+                height: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+                #about-us-header{
+                    font-size: 35px;
+                    color: black;
+                }
+                #about-us-header-bio{
+                    color: rgb(172, 119, 22);
+                    font-size: 25px;
+                }
+            #header-box-bottom{
+                width: 50%;
+                height: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        #about-us-content-box{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #about-us-bio-box{
+                width: 60%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            #about-us-bio{
+                color: black;
+                font-size: 20px;
+            }
+
+
+
+/* SERVICE SECTION */
+#service-section{
+    width: 100%;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+
+
+    display: none;
+}
+    #services-top{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+        #services-header-box{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #service-header{
+                color: black;
+                font-size: 35px;
+            }
+        #services-bio-box{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #service-bio{
+                color: black;
+                font-size: 25px;
+            }
+    #services-bottom{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #service-card-container{
+            width: 100%;
+            height: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 2%;
+        }
+            .service-cards{
+                width: 18%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background-color: whitesmoke;
+                box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+                border-radius: 5px;
+                transition: background-img 0.9s ease;
+            }
+            #haircut-card{
+                background-image: url(haircut-background.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            #trimming-card{
+                background-image: url(trimming-background.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            #styling-card{
+                background-image: url(styling-background.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            #shaving-card{
+                background-image: url(shaving\ background.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+                .service-icon-box{
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .service-icons{
+                        font-size: 80px;
+                        color: rgb(172, 119, 22);
+                    }
+                .service-title-box{
+                    width: 100%;
+                    height: 30%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    .service-titles{
+                        font-size: 25px;
+                        color: white;
+                    }
+
+
+/* STAFFING SECTION */
+#staffing-section{
+    width: 100%;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    #staff-header-container{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #staff-header{
+            font-size: 35px;
+            color: black;
+        }
+    #staff-container{
+        width: 100%;
+        height: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 3%;
+    }
+        .staff-cards{
+            width: 25%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+            #staff-card-one, #staff-card-three{
+                display: none;
+            }
+            .barber-images{
+                width: 100%;
+                height: 65%;
+            }
+                #barber-img-one{
+                    background-image: url(barber-one.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                #barber-img-two{
+                    background-image: url(barber-two.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                #barber-img-three{
+                    background-image: url(barber-three.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+            .barber-names{
+                width: 100%;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                .names{
+                    font-size: 20px;
+                    color: black;
+                }
+            .barber-exp{
+                width: 100%;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                .experience{
+                    font-size: 16px;
+                    color: black;
+                }
+            .booking-button{
+                width: 100%;
+                height: 15%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                .booking-btn{
+                    height: 75%;
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color:rgb(172, 119, 22);
+                    border: 1px solid black;
+                }
+
+
+/* GALLERY SECTION */
+#gallery-section{
+    width: 100%;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+    background-color: antiquewhite;
+}
+    .gallery-halves{
+        width: 95%;
+        height: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2%;
+
+    }
+        .gallery-cards{
+            width: 18%;
+            height: 100%;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: 1.1s;
+        }
+        .gallery-cards:hover{
+            transform: scale(1.1);
+        }
+            #gallery-card-one{
+                background-image: url(gallery-img-thirteen.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-two{
+                background-image: url(gallery-img-two.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-three{
+                background-image: url(gallery-img-three.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-four{
+                background-image: url(gallery-img-four.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-five{
+                background-image: url(gallery-img-five.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-six{
+                background-image: url(gallery-img-eleven.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-seven{
+                background-image: url(gallery-img-twelve.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-eight{
+                background-image: url(gallery-img-eight.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-nine{
+                background-image: url(gallery-img-nine.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            #gallery-card-ten{
+                background-image: url(gallery-img-ten.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+
+
+
+
+/* BOTTOM SECTION */
+#bottom-section{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+
+    border: 1px solid black;
+}
+    #bottom-section-top{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+        #contact-button-box{
+            width: 25%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10%;
+        }
+            #contact-buttons{
+                color: white;
+                cursor: pointer;
+                font-size: 40px;
+            }
+        #socials-button-box{
+            width: 25%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10%;
+        }
+            #socials{
+                color: white;
+                cursor: pointer;
+                font-size: 40px;
+            }
+        #map-container{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #map-box{
+                width: 75%;
+                height: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                border: 1px solid white;
+
+            }
+                #map{
+                    width: 100%;
+                    height: 100%;
+                }
+    #bottom-section-bottom{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #trademark{
+            font-size: 20px;
+        }
+/* MEDAI SCREENS BELOW */
+@media screen and (max-width: 480px) {
+    /*MAIN CONTAINER */
+    #main-container-top{
+        flex-direction: column;
+        height: 60%;
+    }
+    #left-logo-container{
+        display: none;
+    }
+    #main-logo-container{
+        height: 80%;
+        width: 100%;
+    }
+        #big-logo{
+            width: 100%;
+            height: 100%;
+        }
+    #button-container{
+        height: 20%;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #main-container-bottom{
+        flex-direction: column;
+        height: 40%;
+    }
+        .main-info-boxes{
+            width: 100%;
+            height: 33.3%;
+        }
+    h1, h2, h3{
+        font-size: 15px;
+        line-height: 1;
+    }
+    .orange-headers{
+        font-size: 12px;
+    }
+    #main-container-bio{
+        width: 100%;
+    }
+    .nav-buttons{
+        font-size: 10px;
+    }
+    #schedule-box{
+        flex-direction: column;
+    }
+    #schedule-header{
+        display: none;
+    }
+
+/* PRICING SECTION */
+.service-offered{
+    font-size: 14px;
+}
+.service-prices{
+    font-size: 14px;
+}
+
+/* ABOUT SECTION */
+#about-section{
+    flex-direction: column;
+}
+#about-section-right{
+    width: 100%;
+    height: 50%;
+}
+#header-box-top{
+    width: 100%;
+}
+    #about-us-header{
+        font-size: 18px;
+    }
+    #about-us-header-bio{
+        font-size: 16px;
+    }
+    #about-us-bio-box{
+        width: 95%;
+        height: 60%;
+    }
+        #about-us-bio{
+            font-size: 12px;
+        }
+#about-section-left{
+    width: 100%;
+    height: 50%;
+}
+
+/* SERVICE SECTION */
+#service-card-container{
+    flex-direction: column;
+}
+.service-cards{
+    height: 25%;
+    width: 70%;
+}
+.service-icons{
+    font-size: 40px;
+}
+.service-titles{
+    font-size: 20px;
+}
+
+/* STAFFING SECTION */
+#staff-container{
+    flex-direction: column;
+}
+.staff-cards{
+    width: 100%;
+    height: 75%;
+}
+.booking-btn{
+    height: 100%;
+    width: 50%;
+}
+
+/* BOTTOM CONTAINER */
+#bottom-section-top{
+    flex-direction: column;
+}
+#socials-button-box{
+    width: 100%;
+    height: 25%;
+    flex-direction: row;
+}
+#contact-button-box{
+    flex-direction: row;
+    height: 25%;
+    width: 100%;
+}
+#map-container{
+    width: 100%;
+    height: 50%;
+}
+#map-box{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* gallery section */
+#gallery-section{
+    flex-direction: row;
+}
+.gallery-halves{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.gallery-cards{
+    width: 100%;
+    height: 30%;
+}
+}
