@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oxmoor Barber & Style shop</title>
+    <title>Looney's Barbershop</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="example-logo.png" type="image/x-icon">
@@ -15,11 +15,11 @@
     {
       "@context": "https://schema.org",
       "@type": "Barbershop",
-      "name": "Oxmoor Barber & Style Shop",
+      "name": "Looney's Barbershop",
       "url": "http://www.yourwebsiteurl.com", 
       "logo": "http://www.yourwebsiteurl.com/example-logo.png",
       "image": "http://www.yourwebsiteurl.com/example-logo.png",
-      "description": "Oxmoor Barber & Style Shop offers exceptional grooming services with skilled barbers, located in Birmingham, Alabama.",
+      "description": "Looney's Barbershop offers exceptional grooming services with skilled barbers, located in Birmingham, Alabama.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "504 Scott St",
@@ -67,7 +67,7 @@
             </div>
             <div id="main-logo-container">
                 <div id="big-logo-box">
-                    <img id="big-logo" src="example-logo.png" id="big-logo">
+                    <img id="big-logo" src="Looney_s_Barbershop-removebg-preview.png" id="big-logo">
                 </div>
                 <div id="main-container-bio">
 
@@ -77,36 +77,63 @@
                 </div>
             </div>
             <div id="button-container">
-                <a id="service-button" class="nav-buttons" href="#gallery-section">GALLERY</a>
+                <a id="service-button" class="nav-buttons" href="gallery-index.html#gallery-section">GALLERY</a>
                 <a id="about-button" class="nav-buttons" href="#about-section">ABOUT US</a>
                 <a id="contact-button" class="nav-buttons" href="#bottom-section">CONTACT</a>
             </div>
         </div>
+    </div>
 
-
-
-
-
-        <div id="main-container-bottom">
-            <div class="main-info-boxes">
-                <h1 id="address-header" class="orange-headers"> ADDRESS</h1>
+    <!-- I had to move this box out of the main container box -->
+    <div id="main-container-bottom">
+        <div class="main-info-boxes">
+            <div class="info-header-boxes">
+                <h3 class="renewed-info-headers">ADDRESS</h3>
+            </div>
+            <div class="info-content-boxes">
                 <a id="address" href="https://www.google.com/maps/place/504+Scott+St,+Birmingham,+AL+35209/@33.4622354,-86.8287647,16z/data=!3m1!4b1!4m6!3m5!1s0x88891ec909ab3b11:0x3b82f92e38582275!8m2!3d33.4622354!4d-86.8287647!16s%2Fg%2F11c3q3tbvf?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D">504 Scott St, Homewood, AL 35209</a>
             </div>
-            <div class="main-info-boxes">
-                <h1 id="booking-header" class="orange-headers">CALL US</h1>
-                <a id="phone-number-header" href="tel:2054345466">(205)434-5466</a>
-                <h1 id="appointment-header" class="orange-headers">FOR BOOKING</h1>
+        </div>
+        <div class="main-info-boxes">
+            <div class="info-header-boxes">
+                <h3 class="renewed-info-headers">CALL US</h3>
             </div>
-            <div id="schedule-box" class="main-info-boxes">
-                <h1 id="schedule-header" class="orange-headers"> HOURS </h1>
-                <h1 id="week-hours">Tues - Fri 8:30AM - 5:30PM </h1>
-                <h1 id="hours-one"> Thurs 8:30AM - 7:00PM</h1>
-                <h1 id="weekend-hours"> Sat - Mon</h1>
-                <h1 id="hours-two">CLOSED</h1>
+            <div class="info-content-boxes">
+                <a id="phone-number-header" href="tel:2054345466">(205)434-5466</a>
+            </div>
+        </div>
+        <div class="main-info-boxes">
+            <div class="info-header-boxes">
+                <h3 class="renewed-info-headers">SCHEDULE</h3>
+            </div>
+            <div class="info-content-boxes" id="schedule-container-renewed">
+                <div class="schedule-boxes-renewed">
+                    <div class="schedule-boxes-left">
+                        <h3 class="schedule-days">Tues - Fri</h3>
+                    </div>
+                    <div class="schedule-boxes-right">
+                        <h3 class="schedule-hours">8:30AM - 5:30PM</h3>
+                    </div>
+                </div>
+                <div class="schedule-boxes-renewed">
+                    <div class="schedule-boxes-left">
+                        <h3 class="schedule-days">Thursday</h3>
+                    </div>
+                    <div class="schedule-boxes-right">
+                        <h3 class="schedule-hours">8:30AM - 7:00PM</h3>
+                    </div>
+                </div>
+                <div class="schedule-boxes-renewed">
+                    <div class="schedule-boxes-left">
+                        <h3 class="schedule-days">Sat - Mon</h3>
+                    </div>
+                    <div class="schedule-boxes-right">
+                        <h3 class="schedule-hours">CLOSED</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
     <!-- PRICING SECTION -->
      <div id="pricing-section">
         <div id="pricing-container">
@@ -183,7 +210,7 @@
         <div id="about-section-right">
             <div id="about-us-header-box">
                 <div id="header-box-top">
-                    <h1 id="about-us-header">Welcome to Oxmoor Barber & Style</h1>
+                    <h1 id="about-us-header">Welcome to Looney's Barbershop</h1>
                 </div>
                 <div id="header-box-bottom">
                     <h1 id="about-us-header-bio">Our barbershop is located in the heart of Homewood, Alabama and has been established since 2019</h1>
@@ -204,7 +231,7 @@
                 <h1 id="service-header">SERVICES</h1>
             </div>
             <div id="services-bio-box">
-                <div id="service-bio">Here at Oxmoor we offer the following services for all customers</div>
+                <div id="service-bio">Here at Looney's we offer the following services for all customers</div>
             </div>
         </div>
         <div id="services-bottom">
@@ -275,25 +302,6 @@
             </div>
         </div>
       </div>
-
-      <!-- GALLERY SECTION -->
-       <div id="gallery-section">
-            <div id="gallery-top-container" class="gallery-halves">
-                <div id="gallery-card-one" class="gallery-cards"></div>
-                <div id="gallery-card-two" class="gallery-cards"></div>
-                <div id="gallery-card-three" class="gallery-cards"></div>
-                <div id="gallery-card-four" class="gallery-cards"></div>
-                <div id="gallery-card-five" class="gallery-cards"></div>
-            </div>
-            <div id="gallery-bottom-container" class="gallery-halves">
-                <div id="gallery-card-six" class="gallery-cards"></div>
-                <div id="gallery-card-seven" class="gallery-cards"></div>
-                <div id="gallery-card-eight" class="gallery-cards"></div>
-                <div id="gallery-card-nine" class="gallery-cards"></div>
-                <div id="gallery-card-ten" class="gallery-cards"></div>
-            </div>
-       </div>
-
       <!-- BOTTOM SECTION -->
        <div id="bottom-section">
             <div id="bottom-section-top">
@@ -313,7 +321,7 @@
                 </div>
             </div>
             <div id="bottom-section-bottom">
-                <h1 id="trademark">Copyright 2025 © Oxmoor Barber & Style Shop</h1>
+                <h1 id="trademark">Copyright 2025 © Looney's Barbershop</h1>
             </div>
        </div>
 </body>
