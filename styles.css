@@ -229,11 +229,8 @@ h1, h2, h3, h4, h5, h6{
                             .schedule-hours{
                                 font-size: 15px;
                             }
-            #address, #phone-number{
-                font-size: 15px;
-            }
-            #hours-one, #hours-two{
-                font-size: 12px;
+            #address, #phone-number-header{
+                font-size: 25px;
             }
 
 /* PRICING SECTION */
